@@ -1,10 +1,11 @@
 import React from 'react'
 import DashboardPage from './pages/DashboardPage'
-import './App.css'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
     <div className="container">
+      <Navbar />
       <DashboardPage />
     </div>
   )
