@@ -16,9 +16,15 @@ html {
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  min-height: 100vh;
 }
 
 .container {
-  margin: 0 10rem;
+  height: 90vh;
+  margin: 0 20px;
+}
+
+@media screen and (min-width: 950px) {
+  .container {
+    margin: 0 10rem;
+  }
 }
