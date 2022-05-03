@@ -35,7 +35,7 @@
 
 /* MAIN CONTENT */
 .Dashboard-Main {
-  height: 60%;
+  /* height: 60%; */
   background-color: white;
 }
 
@@ -47,36 +47,8 @@
   /* background-color: #eee; */
 }
 
-.Answers-Table {
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  margin-left: 0;
-  background-color: white;
-  border-radius: 5px;
-  border: 1px solid #eee;
-  border-bottom: 0;
-}
-
-.Cell-Wrapper {
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-  align-items: center;
-  border-bottom: 1px solid #eee;
-}
-
-.Cell-Img-Holder {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  margin-right: 8px;
-  background-color: aquamarine;
-}
-
-svg {
-  width: 25px;
-  margin-left: auto;
+.Survey-Controls {
+  background-color: aqua;
 }
 
 @media screen and (min-width: 950px) {

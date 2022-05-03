@@ -1,0 +1,20 @@
+.Cell-Wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.Cell-Img-Holder {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 8px;
+  background-color: aquamarine;
+}
+
+svg {
+  width: 25px;
+  margin-left: auto;
+}

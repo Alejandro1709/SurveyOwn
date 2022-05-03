@@ -1,0 +1,51 @@
+.Answers-Table {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-left: 0;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  border-bottom: 0;
+}
+
+.Answers-Controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Answers-Controls  a, .Answers-Controls button {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  width: 50%;
+  background-color: lightgreen;
+  cursor: pointer;
+  border: 2px solid lightgreen
+}
+
+.Answers-Controls a {
+  background-color: dodgerblue;
+  border: 2px solid dodgerblue;
+  color: white;
+}
+
+.Answers-Controls a:hover {
+  background-color: rgb(25, 139, 254);
+  border: 2px solid rgb(25, 139, 254);
+}
+
+.Answers-Controls button {
+  background-color: rgb(237, 77, 77);
+  border: 2px solid rgb(237, 77, 77);
+  color: white;
+}
+
+.Answers-Controls button:hover {
+  background-color: rgb(235, 58, 58);
+  border: 2px solid rgb(235, 58, 58);
+  color: white;
+}
