@@ -1,0 +1,27 @@
+.Navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+}
+
+.Navbar nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  width: 100%;
+}
+
+.Navbar-logo {
+  display: inline-block;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
