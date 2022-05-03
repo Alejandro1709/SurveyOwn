@@ -3,7 +3,7 @@ import './DashboardPage.css'
 
 function DashboardPage() {
   return (
-    <section className="Dashboard">
+    <div className="Dashboard">
       <div className="Dashboard-Header">
         <div className="Header-Wrapper">
           <div className="Header-Card">Card</div>
@@ -14,7 +14,7 @@ function DashboardPage() {
       </div>
       <div className="Dashboard-Main">Main</div>
       <div className="Dashboard-Footer">Footer</div>
-    </section>
+    </div>
   )
 }
 
