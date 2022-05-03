@@ -16,18 +16,17 @@ html {
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #FAFAFA;
 }
 
 .container {
   height: 100vh;
   padding: 0 20px;
-  background-color: #C4C4C4;
+  background-color: #ebebeb;
   overflow: hidden;
 }
 
-/* @media screen and (min-width: 950px) {
+@media screen and (min-width: 950px) {
   .container {
-    padding: 0 10px;
+    padding: 0 10rem;
   }
-} */
+}
